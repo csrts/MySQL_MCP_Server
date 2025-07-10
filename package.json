@@ -1,0 +1,31 @@
+{
+  "name": "mysql-mcp-server",
+  "version": "1.0.0",
+  "description": "A Model Context Protocol server for MySQL database operations",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "mysql-mcp-server": "./src/index.js",
+    "mysql-mcp-server-env": "./src/index-with-env.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --inspect src/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "mysql",
+    "database",
+    "model-context-protocol"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0",
+    "mysql2": "^3.11.0",
+    "better-sqlite3": "^11.8.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 
