@@ -33,7 +33,7 @@
 
 ### 本地安装
 
-0. clone到本地
+0. clone到本地:
 
   ```bash
   git clone https://github.com/csrts/MySQL_MCP_Server
