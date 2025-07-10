@@ -33,6 +33,13 @@
 
 ### 本地安装
 
+0. clone到本地
+
+  ```bash
+  git clone https://github.com/csrts/MySQL_MCP_Server
+  cd MySQL_MCP_Server
+  ```
+
 1. 安装依赖：
    
    ```bash
@@ -466,7 +473,7 @@ format: JSON
 
 ```bash
 # 克隆项目
-git clone <repository-url>
+git clone https://github.com/csrts/MySQL_MCP_Server
 cd MySQL_MCP_Server
 
 # 安装依赖
