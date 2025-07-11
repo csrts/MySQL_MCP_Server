@@ -70,38 +70,6 @@
     }
    ```
 
-## 详细说明
-
-`node` : MySQL MCP Server需要通过node进行启动，前置条件是需要已安装 Node.js
-
-`args` : 参数，需要修改整个参数为MCP Server的绝对路径
-
-    例如：
-
-```json
-"args": [
-     "test/MCPs/MySQL_MCP_Server/src/index.js"
-   ],
-```
-
-`MYSQL_HOST` : MySQL数据库服务器地址
-
-`MYSQL_PORT` : MySQL数据库服务器端口
-
-`MYSQL_USER` : MySQL数据库用户名
-
-`MYSQL_PASSWORD` : MySQL数据库密码
-
-`MYSQL_DATABASE` : MySQL数据库名称
-
-`MYSQL_SSL` : 是否启用MySQL SSL连接
-
-`ALLOW_INSERT_OPERATION` : 是否允许AI数据执行插入操作
-
-`ALLOW_UPDATE_OPERATION` : 是否允许AI执行数据修改操作
-
-`ALLOW_DELETE_OPERATION` : 是否允许AI执行数据删除操作
-
 ## 配置
 
 ### MCP客户端配置
@@ -164,6 +132,7 @@
 
 - **`command`**: 要执行的命令（npx、node等）
 - **`args`**: 命令参数数组
+  - **`"path_your_mcp_server/src/index.js"`**: 替换为实际MCP Server的绝对路径
 - **`env`** (可选): 环境变量对象
 - **`cwd`** (可选): 当前工作目录，仅在本地开发时需要
 
